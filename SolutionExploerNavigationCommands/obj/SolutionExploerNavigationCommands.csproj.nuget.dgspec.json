@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\Users\\marci\\Source\\Repos\\SolutionExploerNavigationCommands\\SolutionExploerNavigationCommands\\SolutionExploerNavigationCommands.csproj": {}
+  },
+  "projects": {
+    "G:\\Users\\marci\\Source\\Repos\\SolutionExploerNavigationCommands\\SolutionExploerNavigationCommands\\SolutionExploerNavigationCommands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Users\\marci\\Source\\Repos\\SolutionExploerNavigationCommands\\SolutionExploerNavigationCommands\\SolutionExploerNavigationCommands.csproj",
+        "projectName": "SolutionExploerNavigationCommands",
+        "projectPath": "G:\\Users\\marci\\Source\\Repos\\SolutionExploerNavigationCommands\\SolutionExploerNavigationCommands\\SolutionExploerNavigationCommands.csproj",
+        "packagesPath": "G:\\Users\\marci\\.nuget\\packages\\",
+        "outputPath": "G:\\Users\\marci\\Source\\Repos\\SolutionExploerNavigationCommands\\SolutionExploerNavigationCommands\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "G:\\Users\\marci\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "G:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "G:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[16.4.1057, )"
+            },
+            "Microsoft.VisualStudio.SDK": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[16.0.202, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
